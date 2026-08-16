@@ -4,32 +4,76 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Data annotation for computer vision: quality over volume | Deepvidia Blog</title>
-  <meta name="description" content="Why annotation quality, guidelines, and review loops matter more than dataset size for computer vision detection and classification projects." />
+  <meta name="description" content="Why consistent data annotation guidelines and review loops matter more than dataset size for computer vision detection and classification projects. Practical notes from Deepvidia." />
+  <meta name="keywords" content="data annotation, computer vision annotation, labeling quality, AI data Pakistan, Deepvidia" />
   <link rel="canonical" href="https://zuhaibbutt786.github.io/deepvidia/blog/posts/2026-08-14-data-annotation-for-computer-vision.html" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Zuhaib Hussain Butt" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Data annotation for computer vision: quality over volume" />
+  <meta property="og:description" content="Annotation quality drives computer vision model reliability more than raw dataset size." />
+  <meta property="og:url" content="https://zuhaibbutt786.github.io/deepvidia/blog/posts/2026-08-14-data-annotation-for-computer-vision.html" />
+  <meta property="article:published_time" content="2026-08-14" />
   <link rel="stylesheet" href="../../css/styles.css" />
   <link rel="stylesheet" href="../../css/blog.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Data annotation for computer vision: quality over volume",
+    "datePublished": "2026-08-14",
+    "dateModified": "2026-08-16",
+    "author": {
+      "@type": "Person",
+      "name": "Zuhaib Hussain Butt",
+      "url": "https://github.com/zuhaibbutt786"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Deepvidia",
+      "url": "https://zuhaibbutt786.github.io/deepvidia/"
+    },
+    "description": "Why annotation quality matters more than volume for computer vision models.",
+    "mainEntityOfPage": "https://zuhaibbutt786.github.io/deepvidia/blog/posts/2026-08-14-data-annotation-for-computer-vision.html"
+  }
+  </script>
 </head>
 <body class="blog-page">
   <header class="site-header">
     <div class="container header-inner">
       <a href="../../" class="logo">Deep<span>vidia</span></a>
-      <nav class="nav"><a href="../">Blog</a><a href="../../#contact" class="btn btn-sm">Contact</a></nav>
+      <nav class="nav">
+        <a href="../">Blog</a>
+        <a href="../../#capabilities">Capabilities</a>
+        <a href="../../#contact" class="btn btn-sm">Contact</a>
+      </nav>
     </div>
   </header>
   <main class="blog-main">
     <article class="post container">
-      <p class="post-meta"><a href="../">Blog</a> · <time datetime="2026-08-14">August 14, 2026</time></p>
+      <p class="post-meta"><a href="../">Blog</a> · <time datetime="2026-08-14">August 14, 2026</time> · Zuhaib Hussain Butt</p>
       <h1>Data annotation for computer vision: quality over volume</h1>
-      <p class="post-lead">Detection and classification models only learn what the labels teach them. Inconsistent boxes or class names quietly destroy performance.</p>
+      <p class="post-lead">Models only learn what the labels teach them. Consistent annotation guidelines and review loops matter more than raw dataset size for detection and classification projects.</p>
       <div class="post-body">
-        <p>Before scaling a labeling workforce, lock guidelines: what counts as an object, how to handle occlusion, when to skip frames, and how rare classes are defined. Then add a review loop — even a small sample of dual-annotated images surfaces disagreement early.</p>
-        <p>Projects such as traffic sign classification and multimodel YOLO experiments depend on this foundation. Volume helps only after quality is under control.</p>
-        <p>For teams in Pakistan and freelancers taking annotation-heavy contracts, documenting the guideline set is as important as the tooling (CVAT, Label Studio, or custom UIs).</p>
-        <p><a href="../">← Back to blog</a></p>
+        <p>Many computer vision projects fail not because of the model architecture, but because of noisy or inconsistent labels. Bounding boxes that drift, class names that overlap, and missing edge cases all push accuracy down — even when you have thousands of images.</p>
+
+        <h2>What good annotation practice looks like</h2>
+        <ul>
+          <li><strong>Written guidelines</strong> with examples of correct and incorrect labels</li>
+          <li><strong>Clear class definitions</strong> so two annotators would label the same object the same way</li>
+          <li><strong>Review loops</strong> (spot checks or consensus) before data enters training</li>
+          <li><strong>Versioned datasets</strong> so you can retrain when guidelines improve</li>
+        </ul>
+
+        <h2>Why this matters for freelancers and AI teams in Pakistan</h2>
+        <p>Clients increasingly ask for production-ready computer vision, not only experiments. Showing that you care about annotation quality — not only model choice — is a strong signal. At Deepvidia we treat data annotation as a first-class capability alongside model training and deployment.</p>
+
+        <p>Whether you are building an internal detector, labeling for a client, or evaluating an AI company, insist on guidelines and review. Volume without quality is expensive noise.</p>
+        <p><a href="../">← Back to blog</a> · <a href="../../#projects">Related projects</a></p>
       </div>
     </article>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><p>© 2026 Deepvidia</p></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><p>© 2026 Deepvidia — AI company in Pakistan</p></div></footer>
 </body>
 </html>
