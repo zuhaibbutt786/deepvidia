@@ -13,27 +13,15 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://zuhaibbutt786.github.io/deepvidia/curriculum.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://zuhaibbutt786.github.io/deepvidia/blog/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://zuhaibbutt786.github.io/deepvidia/blog/posts/2026-08-16-grounded-chatbot-responses-rag.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://zuhaibbutt786.github.io/deepvidia/blog/posts/2026-08-15-ai-companies-pakistan-what-to-look-for.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://zuhaibbutt786.github.io/deepvidia/blog/posts/2026-08-14-data-annotation-for-computer-vision.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
   </url>
 </urlset>
