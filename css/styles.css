@@ -38,7 +38,13 @@ body {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.55;
+  opacity: 0.9;
+}
+
+#canvas-container canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .container {
@@ -56,7 +62,7 @@ body {
   right: 0;
   z-index: 100;
   backdrop-filter: blur(16px);
-  background: rgba(7, 9, 15, 0.75);
+  background: rgba(7, 9, 15, 0.72);
   border-bottom: 1px solid var(--border);
 }
 
@@ -83,13 +89,13 @@ body {
 .nav {
   display: flex;
   align-items: center;
-  gap: 1.75rem;
+  gap: 1.35rem;
 }
 
 .nav a {
   color: var(--text-muted);
   text-decoration: none;
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   font-weight: 500;
   transition: color 0.2s;
 }
@@ -164,7 +170,7 @@ body {
 }
 
 .hero-content {
-  max-width: 720px;
+  max-width: 640px;
 }
 
 .eyebrow {
@@ -178,7 +184,7 @@ body {
 
 .hero h1 {
   font-family: var(--display);
-  font-size: clamp(2.4rem, 5.5vw, 3.6rem);
+  font-size: clamp(2.35rem, 5.2vw, 3.45rem);
   font-weight: 700;
   line-height: 1.12;
   letter-spacing: -0.03em;
@@ -186,9 +192,9 @@ body {
 }
 
 .lead {
-  font-size: 1.1rem;
+  font-size: 1.08rem;
   color: var(--text-muted);
-  max-width: 540px;
+  max-width: 520px;
   margin-bottom: 2rem;
 }
 
@@ -205,7 +211,7 @@ body {
 }
 
 .section-alt {
-  background: linear-gradient(180deg, transparent, rgba(13, 17, 26, 0.6), transparent);
+  background: linear-gradient(180deg, transparent, rgba(13, 17, 26, 0.55), transparent);
 }
 
 .section-header {
@@ -417,8 +423,12 @@ body {
   color: var(--text-muted);
 }
 
+.footer-inner a {
+  color: inherit;
+}
+
 /* Responsive */
-@media (max-width: 820px) {
+@media (max-width: 900px) {
   .nav {
     display: none;
   }
